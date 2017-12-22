@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Thiago Lima
+ * @package MyNamespace_MyModule
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="MyNamespace_MyModule" setup_version="0.0.1" >
+        <sequence>
+            <module name="Magento_Catalog" />
+            <module name="Magento_Weee" />
+        </sequence>
+    </module>
+</config>

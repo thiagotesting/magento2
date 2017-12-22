@@ -1,0 +1,28 @@
+{
+    "name": "mynamespace/mymodule",
+    "description": "magento2 custom catalog",
+    "authors": [
+        {
+            "name": "Thiago",
+            "email": "thiagolimaufrj@gmail.com",
+            "homepage": "http://www.acaldeira.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0.0"
+    },
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "license": [
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MyNamespace\\MyModule\\": ""
+        }
+    }
+}
